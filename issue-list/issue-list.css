@@ -10,12 +10,23 @@ body, html{
     padding: 20px;
     margin: 0;
     list-style-type: none;
-    background-color: darkred;
+    background-color: slateblue;
     width: 150px;
     height: 100%;
     float: left;
+    font-size: 10px;
 }
 
-ul{
-    background-color: black;
+ul li {
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 40px;
+    border: 1px solid #fff;
+    margin: 2px;
+}
+
+ul li:hover{
+    background-color: red;
+    color: white;
 }
