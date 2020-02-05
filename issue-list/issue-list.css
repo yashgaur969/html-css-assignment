@@ -1,0 +1,21 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+}
+
+
+.navlist{
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    background-color: darkred;
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+
+ul{
+    background-color: black;
+}
