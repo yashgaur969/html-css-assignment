@@ -1,4 +1,4 @@
-/* body, html{
+ body, html{
     padding: 0;
     margin: 0;
     height: 100%;
@@ -17,7 +17,7 @@
     font-size: 10px;
 }
 
-ul li {
+/* ul li {
     font-size: large;
     text-decoration: none;
     color: #fff;
@@ -26,25 +26,22 @@ ul li {
     margin: 2px;
 }
 
-ul li:hover{
-    background-color: red;
-    color: white;
-} */
+ */
+
 .wrapper{
     display: grid;
     grid-template-columns: 15% 85%;
     grid-template-rows: 30% 100%;
     justify-content: left;
 }
-lefttop{
+/* lefttop{
     position: sticky;
-}
+} */
 .remainingtop{
     display: grid;
-    grid-template-columns: 80% 10% 10%;
+    grid-template-columns: 90% 5% 5%;
     align-items: center;
-    border-left: 1px dotted gray;
-    position: sticky;
+    border-left: 1px solid gray;
    
 }
 .navigationbar{
@@ -54,20 +51,22 @@ lefttop{
     height: 1000%;
     
 }
-/* .Issue{
-    background-color: white;
+ .Issue{
+    background-color: rgb(218, 226, 226);
     display: grid;
-    grid-template-rows: 30% 100%;
+    grid-template-rows: 30% 1000%;
+    
+   
 }
 .issuehead{
     display: grid;
-    grid-template-columns: 80% 10% 10%;
+    grid-template-columns: 80% 5% 7% 3% 5%;
     align-items: center;
-} */
-/* .issue_content{
+} 
+ .issue_content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    justify-content: center;
     column-gap: 20px;
 }
 .todo,.progress,.done{
@@ -78,6 +77,12 @@ lefttop{
 /* .desc{
     background-color: white;
 } */
+.todo{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    row-gap: 20px;
+}
 .dashboardclass,.createclass{
     color: rgb(114, 131, 184);
     background-color: #2f3858;
