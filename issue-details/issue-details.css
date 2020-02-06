@@ -1,0 +1,54 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 30% 100%;
+    justify-content: left;
+}
+
+.remainingtop{
+    display: grid;
+    grid-template-columns: 90% 5% 5%;
+    align-items: center;
+    border-left: 1px solid gray;
+   
+}
+.navigationbar{
+    display: flex;
+    background-color: #242b42;
+    justify-content: center;
+    height: 1000%;
+    
+}
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+}
+
+
+.navlist{
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    background-color: slateblue;
+    width: 150px;
+    height: 100%;
+    float: left;
+    font-size: 10px;
+}
+.dashboardclass,.createclass{
+    color: rgb(114, 131, 184);
+    background-color: #2f3858;
+    
+}
+.issueclass{
+    background-color: #5369FA;
+    color: white;
+}
+li{
+    margin 10px 0;;
+    padding: 8px;
+    border: 2px;
+    font-size: x-large;
+}
