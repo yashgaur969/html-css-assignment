@@ -34,9 +34,7 @@
     grid-template-rows: 30% 100%;
     justify-content: left;
 }
-/* lefttop{
-    position: sticky;
-} */
+
 .remainingtop{
     display: grid;
     grid-template-columns: 90% 5% 5%;
@@ -69,19 +67,42 @@
     justify-content: center;
     column-gap: 20px;
 }
-.todo,.progress,.done{
-    height: 100%;
-    width: 100%;
-    background-color: #EBEDF4;
-} */
+.todolist {
+    display: grid;
+    grid-template-rows: 10px;
+    row-gap: 10px;
+    
+}
+*/
 /* .desc{
     background-color: white;
 } */
-.todo{
+/* .todo{
+    height: 100%;
+    width: 100%;
+    background-color: #EBEDF4;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    row-gap: 20px;
+    row-gap: 10px;
+    
+    
+} */
+.firsttodo{
+    display: flex;
+    
+
+}
+.progress{
+    height: 100%;
+    width: 100%;
+    background-color: #EBEDF4;
+
+}
+.done{
+    height: 100%;
+    width: 100%;
+    background-color: #EBEDF4;
+
 }
 .dashboardclass,.createclass{
     color: rgb(114, 131, 184);
@@ -98,3 +119,7 @@ li{
     border: 2px;
     font-size: x-large;
 }
+.firsttodo{
+    display: flex;
+}
+
